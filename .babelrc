@@ -1,0 +1,13 @@
+{
+    "presets": [ //propiedad de babel
+        [
+            "@babel/preset-env", //modulos instalados
+            {
+                "targets": { //propiedad para decir que que entorno estamos ejecutando código (node)
+                    "node": "current" //utilizar los modulos de (node)
+                }
+            }           
+        ],
+        "@babel/preset-react" //modulos instalados, puede entender jsx
+    ]
+}
